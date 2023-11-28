@@ -40,7 +40,7 @@ class RegisterForm(UserCreationForm):
                                 widget=forms.PasswordInput(attrs={'placeholder': 'Confirm Password',
                                                                   'class': 'form-control',
                                                                   'data-toggle': 'password',
-                                                                  'id': 'password',
+                                                                  'id': 'password2',
                                                                   }))
 
     class Meta:
