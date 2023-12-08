@@ -101,7 +101,7 @@ body {
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   /* background-color: var(--bs-body-bg); */
-  background-image: url('https: //res.cloudinary.com/fevercode/image/upload/v1701193294/land1_onjfyq.jpg');
+  background: url('https: //res.cloudinary.com/fevercode/image/upload/v1701193294/land1_onjfyq.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
