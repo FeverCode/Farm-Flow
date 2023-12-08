@@ -233,7 +233,7 @@ CSRF_TRUSTED_ORIGINS = ['https://farm-share.up.railway.app', 'https://farmshare.
 SECURE_HSTS_SECONDS = 31536000  # 1 year; adjust as needed
 SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 SECURE_HSTS_PRELOAD = True
-SECURE_SSL_REDIRECT = True
+# SECURE_SSL_REDIRECT = True
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 
