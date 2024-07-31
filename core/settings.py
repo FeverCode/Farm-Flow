@@ -222,7 +222,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:8000",
     "https://farm-share.up.railway.app/",
     "https://farmshare.co.ke/",
-    "https://www.valuechain.farmshare.co.ke",
+    "https://valuechain.farmshare.co.ke",
     "https://7044-41-60-234-101.ngrok-free.app",
 
 ]
