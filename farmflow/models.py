@@ -163,6 +163,16 @@ class Profile(models.Model):
     def save(self, *args, **kwargs):
         self.name = f"{self.user.first_name} {self.user.last_name}"  # set the name as the user's first and last name
         self.email = self.user.email
+
+        if (
+            existing_profile := Profile.objects.filter(email=self.email)
+            .exclude(user=self.user)
+            .first()
+        ):
+            # Update the existing profile instead of creating a new one
+            existing_profile.user = self.user
+            existing_profile.save()
+            return
         super().save(*args, **kwargs)  # call the original save method
 
     def __str__(self):
