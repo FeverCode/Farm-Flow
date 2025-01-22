@@ -222,13 +222,12 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:8000",
     "https://farm-share.up.railway.app/",
     "https://farmshare.co.ke/",
-    "https://valuechain.farmshare.co.ke",
-    "https://7044-41-60-234-101.ngrok-free.app",
+    "https://valuechain.farmshare.co.ke"
 
 ]
 
 
-CSRF_TRUSTED_ORIGINS = ['https://farm-share.up.railway.app', 'https://farmshare.co.ke', 'https://valuechain.farmshare.co.ke', 'https://3f6b-41-60-234-147.ngrok-free.app']
+CSRF_TRUSTED_ORIGINS = ['https://farm-share.up.railway.app', 'https://farmshare.co.ke', 'https://www.valuechain.farmshare.co.ke']
 
 SECURE_HSTS_SECONDS = 31536000  # 1 year; adjust as needed
 SECURE_HSTS_INCLUDE_SUBDOMAINS = True
